@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header {
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+        }
+
+        header > h1 {
+            font-weight: bold;
+            font-size: 3em;
+        }
+
+        nav {
+            display: inline-block;
+            text-align: center;
+            background-color: gray;
+            padding: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            margin: auto;
+            background-color: white;
+            width: 1200px;
+            padding: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        assuntos {
+            font-weight: bold;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px 20px;
+            text-align: justify;
+        }
+
+        article > p {
+            width: 500px;
+        }
+
+        article > aside {
+            background-color: gray;
+            width: 500px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+
+            text-align: center;
+
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>QUACK STUDIO</h1>
+        <nav>
+            <a href="">HOME</a>
+            <a href="">SOBRE NÓS</a>
+            <a href="">GAMES</a>
+            <a href="">LINKEDIN</a>
+            <a href="">YOUTUBE</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Novo jogo da Quack Games Studio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sit, quisquam sint aperiam, impedit adipisci voluptatum laboriosam officia hic quam officiis nemo maxime ullam sequi ipsa ratione omnis dolorum harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, provident omnis vitae, accusamus obcaecati id porro molestias rerum consequuntur similique officiis. <br> Quidem, officia! Accusamus eligendi quia ab nihil veniam tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, cumque provident? Recusandae neque voluptates, qui aspernatur error ea dolor! Cum dolor cupiditate expedita ipsum? Dolore eveniet amet sequi deserunt cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio aut non nemo. Repellendus, facilis? Labore similique nihil ex officiis, adipisci numquam eos blanditiis maiores voluptatibus voluptatum, nam, consequatur facilis.</p>
+                <aside>
+                    <p>Artigo escrito por Tiago Costa | Quack Games Studio</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Atualização 1.3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sit, quisquam sint aperiam, impedit adipisci voluptatum laboriosam officia hic quam officiis nemo maxime ullam sequi ipsa ratione omnis dolorum harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ut mollitia a delectus corrupti eum laudantium. Quisquam, modi harum numquam nostrum aliquam minus esse eius perferendis fugit sint adipisci cumque?</p>
+                <aside>
+                    <p>Artigo escrito por Tiago Costa | Quack Games Studio</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pela Quack Studio</p>
+    </footer>
+</body>
+</html>
